@@ -15,7 +15,7 @@ ACPPHelloWorld::ACPPHelloWorld()
 void ACPPHelloWorld::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	UKismetSystemLibrary::PrintString(this,"C++ Hello Unreal World",true,true,FColor::Blue,2.f,TEXT("None"));
 }
 
 // Called every frame
