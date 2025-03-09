@@ -57,4 +57,4 @@ RiderLinkというのをRider側で入れて再起動すると連携ができた
 
 
 ### 進捗動画
-
+[3/9](https://youtu.be/5tInei_YqSI)
