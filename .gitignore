@@ -72,3 +72,22 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Special
+Intermediate/
+Saved/
+Config/
+__ExternalActors__/
+__ExternalObjects__/
+AncientTreasures/
+Characters/
+ElfArden/
+LevelPrototyping/
+ScifiJungle/
+Smugglers_cove/
+StarterContent/
+ThirdPerson/
+Treasure.uasset/
+AncientTreasures.png
+Build/
+Binaries/
