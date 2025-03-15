@@ -36,4 +36,47 @@ void ACPPCalculation::BeginPlay()
 		Duration,
 		TEXT("None"));
 
+	int32 ResultAdd2 = CalcvarA + CalcvarB;
+	FString StrResultAdd2 = FString::Printf(TEXT("%d"),ResultAdd2);
+	UKismetSystemLibrary::PrintString(
+		this,
+		StrResultAdd2,
+		true,
+		true,
+		FColor::Blue,
+		Duration,
+		TEXT("None"));
+
+	int32 ResultSubstract = CalcvarA - CalcvarB;
+	FString StrResultSubstract = FString::Printf(TEXT("%d"),ResultSubstract);
+	UKismetSystemLibrary::PrintString(		this,
+		StrResultSubstract,
+		true,
+		true,
+		FColor::Yellow,
+		Duration,
+		TEXT("None"));
+
+	int32 ResultMultiply = CalcvarA * CalcvarB;
+	FString StrResultMultiply = FString::Printf(TEXT("%d"),ResultMultiply);
+	UKismetSystemLibrary::PrintString(
+		this,
+		StrResultMultiply,
+		true,
+		true,
+		FColor::Green,
+		Duration,
+		TEXT("None"));
+
+	float ResultDivide = (float)CalcvarA / (float)CalcvarB;
+	FString StrResultDivide = FString::Printf(TEXT("%f"),ResultDivide);
+	UKismetSystemLibrary::PrintString(
+		this,
+		StrResultDivide,
+		true,
+		true,
+		FColor::Orange,
+		Duration,
+		TEXT("None")
+		);
 }
