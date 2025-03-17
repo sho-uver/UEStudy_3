@@ -80,6 +80,8 @@ C++入門として[このサイト](https://zenn.dev/posita33/books/ue5_starter_
 -[C++でFunction](https://zenn.dev/posita33/books/ue5_starter_cpp_and_bp_001/viewer/chap_02_cpp-function)のところまで
 -Switchでdefaultというケースを設けてエラー処理とか予想外の値に対応した処理を入れるらしい
 -値渡しはC#とかもで使っている引数と同じだが、参照渡しは変数そのものを渡しているのでその値を変更すると大元も変わる。参照渡しの方が領域を確保しない分速い。
+###3/17
+- スーバー残業デーだったので進捗なし
 
 ## つまずきと対応
 ### UE上のC++ファイル名をリネームできない
